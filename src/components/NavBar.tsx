@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { HStack } from "@chakra-ui/layout";
 import { Image } from "@chakra-ui/react";
 import logo from "../assets/logo.webp";
@@ -17,16 +16,6 @@ const NavBar = ({ onSearch }: Props) => {
       <ColorModeSwitch />
     </HStack>
   );
-=======
-import React from "react";
-
-interface Props {
-  cartItemsCount: number;
-}
-
-const NavBar = ({ cartItemsCount }: Props) => {
-  return <div>NavBar: {cartItemsCount}</div>;
->>>>>>> 659ed18edafc69fed5a7893188ccf775cf4db858
 };
 
 export default NavBar;
