@@ -5,12 +5,6 @@ import APIClient from "../services/api-client";
 import ms from "ms";
 
 const apiCLient = new APIClient("/genres");
-export interface Genre {
-  id: number;
-  name: string;
-  image_background: string;
-}
-
 //const useGenres = () => ({ data: genres, isLoading: false, error: null }); //useData<Genre>("/genres");
 
 const useGenres = () =>
